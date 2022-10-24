@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./main.css">
+    <title>Movies</title>
+</head>
+<body>
+
+    <section class="movies">
+        <div class="container">
+            <div class="wrapper">
+                <div class="title-wrap">
+                    <h1 class="title">Movies</h1>
+                </div>
+                <ul class="movies-collection"></ul>
+            </div>
+        </div>
+    </section>
+
+
+    <template class="movies-temp">
+        <li class="movies-item">
+            <p class="movies-year-wrap"><span class="movies-year"></span></p>
+            <h2 class="movies-title"></h2>
+            <div class="casts-wrap">
+                <strong class="casts-text">Casts:</strong>
+                <p class="casts-info"></p>
+            </div>
+            <div class="genras-wrap">
+                <strong class="genras-text">Genras:</strong>
+                <p class="genras-info"></p>
+            </div>
+        </li>
+    </template>
+
+
+<script src="kinolar.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
